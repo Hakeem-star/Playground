@@ -27,7 +27,7 @@ const Container = styled.div`
 `;
 
 const Tile = styled.div`
-  width: 1920px;
+  width: 100vw;
   height: 900px;
   transform: scale(0.98) translateY(30px);
   background-color: ${({ bgColor }) => bgColor};
