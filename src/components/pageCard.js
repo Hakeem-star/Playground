@@ -115,7 +115,7 @@ export default function PageCard({
     >
       <CardContent
         className="page-card__card-content"
-        animateMove={moveToPosition()}
+        moveToPosition={moveToPosition()}
       >
         <h1>{text}</h1>
         <div>
